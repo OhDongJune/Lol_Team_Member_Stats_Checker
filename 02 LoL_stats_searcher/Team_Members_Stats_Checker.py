@@ -3,6 +3,23 @@ from selenium.common.exceptions import UnexpectedAlertPresentException, ElementC
 import time
 
 class Team_members_stats_checker_class:
+
+    def Stats_Print(se, check_list):
+        for name in se.keys():
+            print(name + ": { ", end='')
+            for element in check_list:
+                print('[ ' + element + " : ", end='')
+                value = se[name].get(element)
+                if value is None:
+                    print('X ]', end='')
+                else:
+                    print(value + ' ]', end='')
+                if element == check_list[len(check_list) - 1]:
+                    print(' ', end='')
+                else:
+                    print(', ', end='')
+            print(' }')
+
     def last10_days_stats(summoners_name, driver):
         se = dict() # 소환사들의 솔로랭크 최근 10게임의 평가정보들이 담길 딕셔너리
         for name in summoners_name:
@@ -48,9 +65,7 @@ class Team_members_stats_checker_class:
             se[name] = score
         # 정보 출력
         print("==솔로랭크 최근 10게임 평가정보==")
-        for name in se.keys():
-            print(name + ": ", end='')
-            print(se[name])
+        Team_members_stats_checker_class.Stats_Print(se, ['전투', '생존', '성장', '시야', '오브젝트', '최근 경기일'])
         print('')
 
     def total_stats(summoners_name, driver):
@@ -85,7 +100,6 @@ class Team_members_stats_checker_class:
             se[name] = score
         print("==솔로랭크 모든 게임의 평가정보==")
         # 정보 출력
-        for name in se.keys():
-            print(name + ": ", end='')
-            print(se[name])
+        Team_members_stats_checker_class.Stats_Print(se,['전투', '생존', '성장', '시야', '오브젝트'])
         print('')
+

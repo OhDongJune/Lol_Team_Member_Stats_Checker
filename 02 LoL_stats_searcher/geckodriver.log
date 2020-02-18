@@ -5343,3 +5343,496 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 1581907773312	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: uncaught exception: undefined
 1581907792088	Marionette	INFO	Stopped listening on port 6867
+1581937080047	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileR2Q0by"
+*** You are running in headless mode.
+1581937080534	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581937080651	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581937080651	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581937080651	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581937080651	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581937082769	Marionette	INFO	Listening on port 11932
+1581937082906	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581937085972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileJVne5n"
+*** You are running in headless mode.
+1581937086774	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581937086955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581937086956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581937086956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581937086956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581937088709	Marionette	INFO	Listening on port 11968
+1581937088773	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript error: https://hb.vntsm.com/v3/live/ad-manager.min.js, line 56: TypeError: E.a.getTopMostParentBody(...) is null
+JavaScript error: https://hb.vntsm.com/v3/live/ad-manager.min.js, line 56: TypeError: o.contentWindow is null
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://d1oykxszdrgjgl.cloudfront.net/script.js line 1 > eval, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://hb.vntsm.com/v3/live/ad-manager.min.js, line 56: TypeError: E.a.getTopMostParentBody(...) is null
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://hb.vntsm.com/v3/live/ad-manager.min.js, line 56: TypeError: E.a.getTopMostParentBody(...) is null
+JavaScript error: https://hb.vntsm.com/v3/live/ad-manager.min.js, line 56: TypeError: E.a.getTopMostParentBody(...) is null
+1581944152455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofilezUBdMo"
+*** You are running in headless mode.
+1581944153547	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581944153661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581944153661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581944153661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581944153661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581944156034	Marionette	INFO	Listening on port 13650
+1581944156305	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1581944219475	Marionette	INFO	Stopped listening on port 13650
+ilejuLnvQ"
+*** You are running in headless mode.
+1581944159893	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581944160009	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581944160009	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581944160009	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581944160010	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581944162208	Marionette	INFO	Listening on port 13681
+1581944162362	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+1581944217951	Marionette	INFO	Stopped listening on port 13681
+out:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581944169725	Marionette	INFO	Listening on port 13712
+1581944169828	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1581944216629	Marionette	INFO	Stopped listening on port 13712
+JavaScript error: , line 0: uncaught exception: undefined
+1581944223931	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofile6HUTaH"
+*** You are running in headless mode.
+1581944224917	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581944225206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581944225206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581944225206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581944225206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581944227195	Marionette	INFO	Listening on port 8747
+1581944227623	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1581944266231	Marionette	INFO	Stopped listening on port 8747
+extension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581944231693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581944231693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581944231693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581944231693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581944234033	Marionette	INFO	Listening on port 8777
+1581944234186	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581944275073	Marionette	INFO	Stopped listening on port 8777
+[Child 15604, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1579288126/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+1581945698971	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofilesFxiub"
+*** You are running in headless mode.
+1581945699402	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581945699522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581945699522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581945699522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581945699522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581945701869	Marionette	INFO	Listening on port 9183
+1581945702369	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581945746177	Marionette	INFO	Stopped listening on port 9183
+gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileX4mtXn"
+*** You are running in headless mode.
+1581945705803	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581945705915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581945705915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581945705915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581945705915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581945707924	Marionette	INFO	Listening on port 9215
+1581945708180	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+1581945743940	Marionette	INFO	Stopped listening on port 9215
+tore.jsm, line 66: Error: Can't find profile directory.
+1581945714441	Marionette	INFO	Listening on port 9246
+1581945714892	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+1581945742220	Marionette	INFO	Stopped listening on port 9246
+1581945750976	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileFmwqPa"
+*** You are running in headless mode.
+1581945751905	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581945752041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581945752041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581945752041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581945752041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581945754465	Marionette	INFO	Listening on port 9481
+1581945754624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581945804630	Marionette	INFO	Stopped listening on port 9481
+gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileFfDTor"
+*** You are running in headless mode.
+1581945758053	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581945758173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581945758173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581945758174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581945758174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581945759725	Marionette	INFO	Listening on port 9510
+1581945759880	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581945805856	Marionette	INFO	Stopped listening on port 9510
+1581947883476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofilex6e9mp"
+*** You are running in headless mode.
+1581947883903	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581947884016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581947884016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581947884016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581947884016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581947885602	Marionette	INFO	Listening on port 9878
+1581947886090	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1581947938495	Marionette	INFO	Stopped listening on port 9878
+ing manifest: Invalid extension permission: networkStatus
+1581947889785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581947889785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581947889785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581947889786	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581947893009	Marionette	INFO	Listening on port 9912
+1581947893547	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+1581947918784	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581947936298	Marionette	INFO	Stopped listening on port 9912
+	Marionette	INFO	Listening on port 9945
+1581947898622	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1581947935042	Marionette	INFO	Stopped listening on port 9945
+1581947942838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileN9EOSP"
+*** You are running in headless mode.
+1581947943191	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581947943310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581947943310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581947943310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581947943310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581947945205	Marionette	INFO	Listening on port 10227
+1581947945511	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581947958401	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alert@resource://gre/modules/Prompter.jsm:737:10
+error@https://your.gg/kr/profile/newmytime:5658:26
+i@https://s3-ap-northeast-1.amazonaws.com/ggtics-static/material-pro/assets/js/core/jquery.min.js?q=3:1092:49
+fireWith@https://s3-ap-northeast-1.amazonaws.com/ggtics-static/material-pro/assets/js/core/jquery.min.js?q=3:1129:97
+A@https://s3-ap-northeast-1.amazonaws.com/ggtics-static/material-pro/assets/js/core/jquery.min.js?q=3:2953:608
+c/<@https://s3-ap-northeast-1.amazonaws.com/ggtics-static/material-pro/assets/js/core/jquery.min.js?q=3:3037:221
+JavaScript error: , line 0: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: uncaught exception: TagError: adsbygoogle.push() error: No slot size f1581947994822	Marionette	INFO	Stopped listening on port 10264
+ening on port 10227
+1581983834917	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileFRq4IN"
+*** You are running in headless mode.
+1581983835806	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581983835906	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581983835906	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581983835906	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581983835907	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581983837335	Marionette	INFO	Listening on port 10708
+1581983837559	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1581983878189	Marionette	INFO	Stopped listening on port 10708
+ng manifest: Invalid extension permission: networkStatus
+1581983841071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581983841071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581983841071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581983841071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581983842290	Marionette	INFO	Listening on port 10752
+1581983842726	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+1581983876902	Marionette	INFO	Stopped listening on port 10752
+out:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581983847471	Marionette	INFO	Listening on port 10791
+1581983847921	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+1581983875709	Marionette	INFO	Stopped listening on port 10791
+1581983882123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileNI5itX"
+*** You are running in headless mode.
+1581983882494	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581983882590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581983882590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581983882590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581983882591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581983883981	Marionette	INFO	Listening on port 11029
+1581983884189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+1581983907628	Marionette	INFO	Stopped listening on port 11029
+ozprofileXeWm6c"
+*** You are running in headless mode.
+1581983887662	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581983887761	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581983887761	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581983887761	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581983887761	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581983888950	Marionette	INFO	Listening on port 11059
+1581983889378	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581983926471	Marionette	INFO	Stopped listening on port 11059
+1581984821178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofilegtn67h"
+*** You are running in headless mode.
+1581984821499	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581984821601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581984821601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581984821601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581984821601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581984823024	Marionette	INFO	Listening on port 11230
+1581984823242	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1581984866018	Marionette	INFO	Stopped listening on port 11230
+ng manifest: Invalid extension permission: networkStatus
+1581984827098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581984827098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581984827099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581984827099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581984828546	Marionette	INFO	Listening on port 11260
+1581984829008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+1581984840442	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+1581984845390	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+1581984864565	Marionette	INFO	Stopped listening on port 11260
+avaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+1581984863506	Marionette	INFO	Stopped listening on port 11292
+1581984870078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileYRK3dL"
+*** You are running in headless mode.
+1581984870442	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581984870534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581984870534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581984870535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581984870535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581984871759	Marionette	INFO	Listening on port 5077
+1581984872146	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+1581984922723	Marionette	INFO	Stopped listening on port 5077
+mozprofilep81lrR"
+*** You are running in headless mode.
+1581984875616	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581984875709	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581984875709	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581984875709	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581984875710	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581984876893	Marionette	INFO	Listening on port 5107
+1581984877361	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581984923668	Marionette	INFO	Stopped listening on port 5107
+1581985169700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileo1vl3k"
+*** You are running in headless mode.
+1581985170046	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581985170153	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581985170153	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581985170153	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581985170154	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581985171570	Marionette	INFO	Listening on port 5258
+1581985171735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1581985216616	Marionette	INFO	Stopped listening on port 5258
+ing manifest: Invalid extension permission: networkStatus
+1581985175292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581985175292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581985175292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581985175292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581985176512	Marionette	INFO	Listening on port 5288
+1581985176924	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+1581985215183	Marionette	INFO	Stopped listening on port 5288
+bout:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581985181680	Marionette	INFO	Listening on port 5319
+1581985182093	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+1581985214108	Marionette	INFO	Stopped listening on port 5319
+1581985220614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofile7qAzb4"
+*** You are running in headless mode.
+1581985220959	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581985221055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581985221055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581985221055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581985221055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581985222264	Marionette	INFO	Listening on port 5613
+1581985222668	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+1581985242871	Marionette	INFO	Stopped listening on port 5613
+1581985226195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581985226195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581985226195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581985226195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581985227412	Marionette	INFO	Listening on port 5644
+1581985227838	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1581985254085	Marionette	INFO	Stopped listening on port 5644
+1582005053982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileVbVo3x"
+*** You are running in headless mode.
+1582005054320	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582005054417	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582005054417	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582005054417	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582005054417	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1582005055619	Marionette	INFO	Listening on port 6642
+1582005056056	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1582005093320	Marionette	INFO	Stopped listening on port 6642
+ing manifest: Invalid extension permission: networkStatus
+1582005059715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582005059715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582005059715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582005059715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1582005060949	Marionette	INFO	Listening on port 6671
+1582005061302	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/common.js?1581921559, line 1297: unreachable code after return statement
+JavaScript warning: https://opgg-static.akamaized.net/js3/summoner.js?1581921559, line 83: unreachable code after return statement
+1582005084144	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1582005092034	Marionette	INFO	Stopped listening on port 6671
+	Marionette	INFO	Listening on port 6701
+1582005066516	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200212/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: uncaught exception: undefined
+1582005090951	Marionette	INFO	Stopped listening on port 6701
+1582005097285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileLAFPOS"
+*** You are running in headless mode.
+1582005097594	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582005097686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582005097686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582005097686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582005097686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1582005098909	Marionette	INFO	Listening on port 8023
+1582005099323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582005119160	Marionette	INFO	Stopped listening on port 8023
+gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\오동준\\AppData\\Local\\Temp\\rust_mozprofileGx4VsL"
+*** You are running in headless mode.
+1582005102758	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582005102853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582005102853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582005102853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582005102853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1582005104256	Marionette	INFO	Listening on port 8054
+1582005104515	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582005142157	Marionette	INFO	Stopped listening on port 8054

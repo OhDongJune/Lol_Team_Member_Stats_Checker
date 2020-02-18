@@ -44,7 +44,7 @@ class Stats_Refresher_class:
                         print('[OPGG]' + name + ' : 갱신완료')
                     # 아니라면 그 내용을 출력하고 넘어간다.
                     else:
-                        print(elem.text)
+                        continue
                     break
                 # driver.find_element_by_xpath에서 발생한 오류
                 # 몇초 전에 갱신을 했습니다. 몇초 후에 다시 갱신하실 수 있습니다.(OPGG)
