@@ -19,7 +19,6 @@ def Main():
     enemy_player = [ap[i] for i in range(6, 10)]
     print(friendly_player)
     print(enemy_player)
-    
 
 if __name__ == "__main__":
     Main()
