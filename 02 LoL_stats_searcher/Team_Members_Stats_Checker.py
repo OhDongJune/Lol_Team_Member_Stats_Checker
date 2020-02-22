@@ -44,6 +44,8 @@ class Team_members_stats_checker_class:
                     # 경기기록이 없을 때
                     except NoSuchElementException:
                         last_match_date = '없음'
+                    except WebDriverException:
+                        continue
                     # 소환사의 평가정보를 가져옴
                     elem = driver.find_elements_by_tag_name('tspan')
                     # 해당 소환사의 평가정보 처리한다.

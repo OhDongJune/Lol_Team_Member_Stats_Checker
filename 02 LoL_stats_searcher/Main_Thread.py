@@ -36,12 +36,11 @@ def Main():
 
     # 쓰레드 종료 대기
     th_yourgg.join()
-    Get_driver_class.Close_driver(driver_yourgg)
-
     th_opgg.join()
-    Get_driver_class.Close_driver(driver_opgg)
-
     th_fow.join()
+
+    Get_driver_class.Close_driver(driver_yourgg)
+    Get_driver_class.Close_driver(driver_opgg)
     Get_driver_class.Close_driver(driver_fow)
 
     # OPGG, FOW 멀티서치
@@ -64,9 +63,9 @@ def Main():
 
     # 쓰레드 종료 대기
     th_last.join()
-    Get_driver_class.Close_driver(driver_last_10_game)
-
     th_total.join()
+
+    Get_driver_class.Close_driver(driver_last_10_game)
     Get_driver_class.Close_driver(driver_total_game)
 
 if __name__ == "__main__":

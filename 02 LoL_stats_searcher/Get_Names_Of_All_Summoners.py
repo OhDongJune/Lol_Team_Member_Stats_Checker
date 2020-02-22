@@ -20,7 +20,7 @@ class Get_Names_Of_All_Summoners_class:
             except NoSuchElementException:
                 continue
         # 게임 중이 아님
-        if buffer.find('솔로랭크') == -1:
+        if buffer.find('관전하기') == -1:
             all_Players.append(buffer)
         # 게임 중임
         else:

@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.common.exceptions import UnexpectedAlertPresentException
+from selenium.common.exceptions import UnexpectedAlertPresentException, NoAlertPresentException
 
 class Get_driver_class():
     def Get_driver_method(flag):
@@ -22,4 +22,7 @@ class Get_driver_class():
                 driver.close()
                 break
             except UnexpectedAlertPresentException:
-                driver.switch_to.alert.accept()
+                try:
+                    driver.switch_to.alert.accept()
+                except NoAlertPresentException:
+                    break

@@ -51,9 +51,17 @@ class Stats_Refresher_class:
                 except UnexpectedAlertPresentException:
                     print('[OPGG]' + name + ' : 갱신불가')
                     break
-                # driver.find_element_by_xpath에서 발생한 오류(OPGG가 소환사 정보 가져오는게 너무 느려서 발생)
-                # -> 소환사 정보페이지 다시 로딩
                 except NoSuchElementException:
+                    # OPGG 점검중 -> 갱신불가
+                    try:
+                        tmp = driver.find_element_by_class_name('WorkingTitle').text
+                        if tmp == 'Maintenance':
+                            print('[OPGG]' + name + ' : 갱신불가(점검중)')
+                            break
+                    # driver.find_element_by_xpath에서 발생한 오류(OPGG가 소환사 정보 가져오는게 너무 느려서 발생)
+                    except NoSuchElementException:
+                        pass
+                    # -> 소환사 정보페이지 다시 로딩
                     continue
                 # driver.get에서 발생한 오류(OPGG가 소환사 정보 가져오는게 너무 느려서 발생)
                 # -> 소환사 정보페이지 다시 로딩
@@ -77,18 +85,23 @@ class Stats_Refresher_class:
                     # 업데이트 여부 확인
                     update_check = driver.find_element_by_xpath('//div[@class="px-3 d-flex flex-column"]/div[3]').text
                     if update_check == '방금':
-                        print('[YOURGG]' + name + ': 갱신완료')
+                        print('[YOURGG]' + name + ' : 갱신완료')
                         break
                     # 업데이트 버튼 클릭
                     driver.find_element_by_xpath('//i[@id="profileUpdateRefreshImg"]/..').click()
                 # 업데이트 버튼 불가 시 -> 다시시도
                 except ElementClickInterceptedException:
-                    print('[YOURGG]' + name + ': 갱신불가')
-                    break
+                    continue
                 # 일시적으로 라이엇 데이터 사용량을 초과하여 서비스 할 수 없습니다. -> 갱신불가
                 except UnexpectedAlertPresentException:
                     continue
                 except ElementNotInteractableException:
                     continue
                 except WebDriverException:
+                    try:
+                        tmp = driver.find_element_by_class_name('info').text
+                        if tmp == 'error':
+                            print('[YOURGG]' + name + ' : 갱신불가(점검중)')
+                    except NoSuchElementException:
+                        pass
                     continue
