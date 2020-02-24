@@ -72,7 +72,7 @@ class Get_Info_Of_All_Summoners_class():
                     summoner_info['승률'] = 'Unrank'
                     # champion_kda = 'Unrank'
                     summoner_info['KDA'] = 'Unrank'
-                    print('Unrank')
+                    # print('Unrank')
                 friendlys_Players_Info[summoner_name] = summoner_info
             team_Players_Info['Friendly'] = friendlys_Players_Info
 
@@ -121,7 +121,7 @@ class Get_Info_Of_All_Summoners_class():
                     summoner_info['승률'] = 'Unrank'
                     # champion_kda = 'Unrank'
                     summoner_info['KDA'] = 'Unrank'
-                    print('Unrank')
+                    # print('Unrank')
                 enemies_Players_Info[summoner_name] = summoner_info
             team_Players_Info['Enemy'] = enemies_Players_Info
         return team_Players_Info
