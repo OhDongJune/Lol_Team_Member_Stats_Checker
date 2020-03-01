@@ -95,11 +95,9 @@ class Stats_Refresher_class:
                 # 일시적으로 라이엇 데이터 사용량을 초과하여 서비스 할 수 없습니다. -> 갱신불가
                 except UnexpectedAlertPresentException:
                     continue
-                except ElementNotInteractableException:
-                    continue
                 except WebDriverException:
                     try:
-                        tmp = driver.find_element_by_class_name('info').text
+                        tmp = driver.find_element_by_class_name('icon icon-primary').text
                         if tmp == 'error':
                             print('[YOURGG]' + name + ' : 갱신불가(점검중)')
                     except NoSuchElementException:

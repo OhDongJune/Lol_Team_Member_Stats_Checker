@@ -16,11 +16,16 @@ def Main():
     print('\n소환사 목록 : ', end='')
     print(summoners_name, end='\n\n')
 
+    # OPGG, FOW 멀티서치
+    Open_Fow_OPGG_class.Open_Fow_OPGG_method(summoners_name)
+
     # Get_driver_method -> 1 : headless 옵션으로 webdriver 호출, 0 : 일반 webdriver 호출
     # FOW,OPGG,YOURGG 동시에 전적 업데이트
     driver_fow = Get_driver_class.Get_driver_method(1)
     driver_opgg = Get_driver_class.Get_driver_method(1)
     driver_yourgg = Get_driver_class.Get_driver_method(1)
+    driver_last_10_game = driver_fow
+    driver_total_game = driver_yourgg
 
     th_yourgg = threading.Thread(target=Stats_Refresher_class.YOURGG_Stats_Refresher, name='[YOURGG THREAD]',
                                  args=(summoners_name, driver_yourgg))
@@ -39,18 +44,12 @@ def Main():
     th_opgg.join()
     th_fow.join()
 
-    Get_driver_class.Close_driver(driver_yourgg)
+    # 쓰레드 종료
     Get_driver_class.Close_driver(driver_opgg)
-    Get_driver_class.Close_driver(driver_fow)
-
-    # OPGG, FOW 멀티서치
-    # Open_Fow_OPGG_class.Open_Fow_OPGG_method(summoners_name)
 
     print('')
 
     # YOURGG에서 최근 10게임 스탯과 모든 게임 스탯을 가져옴
-    driver_last_10_game = Get_driver_class.Get_driver_method(1)
-    driver_total_game = Get_driver_class.Get_driver_method(1)
 
     th_last = threading.Thread(target=Team_members_stats_checker_class.last10_days_stats,name='[LAST 10 GAME]'
                                ,args=(summoners_name, driver_last_10_game))
@@ -65,8 +64,9 @@ def Main():
     th_last.join()
     th_total.join()
 
-    Get_driver_class.Close_driver(driver_last_10_game)
-    Get_driver_class.Close_driver(driver_total_game)
+    # 쓰레드 종료
+    Get_driver_class.Close_driver(driver_fow)
+    Get_driver_class.Close_driver(driver_yourgg)
 
 if __name__ == "__main__":
     Main()
