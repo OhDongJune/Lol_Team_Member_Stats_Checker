@@ -88,12 +88,22 @@ class OPGG_ban_champion_getter_class():
             team_summoner_info_list.append(summoner_info_dict)
         return team_summoner_info_list
 
-    def OPGG_ban_champion_getter_method(driver, name, team_color):
+    def Get_OPGG_Ingame_driver(driver, name):
         url = 'https://www.op.gg/summoner/userName=' + name
         driver.get(url)
         driver.implicitly_wait(10)
         driver.find_element_by_xpath('//dd[@class="Item tabHeader inGame"]/a').click()
         driver.implicitly_wait(10)
+
+    def Get_OPGG_Title(driver, name):
+        OPGG_ban_champion_getter_class.Get_OPGG_Ingame_driver(driver, name)
+        raw_title = driver.find_element_by_xpath('//div[@class="SpectateSummoner"]/div/div')
+        raw_str = raw_title.text
+        remove_str = raw_title.find_element_by_tag_name('small').text
+        return raw_str[:raw_str.find(remove_str)].strip()
+
+    def OPGG_ban_champion_getter_method(driver, name, team_color):
+        OPGG_ban_champion_getter_class.Get_OPGG_Ingame_driver(driver, name)
         team_summoner_info_list = OPGG_ban_champion_getter_class.OPGG_team_info_getter(driver, team_color)
         OPGG_ban_champion_getter_class.FOW_champ_link_getter(driver, team_summoner_info_list)
 

@@ -2,7 +2,7 @@ import time
 import webbrowser
 
 class Open_Fow_OPGG_class:
-    def Open_Fow_OPGG_method(summoners_name):
+    def Open_Fow_OPGG_method(summoners_name, flag):
         opgg_url = 'https://www.op.gg/multi/query='
         fow_url = 'http://fow.kr/multi#'
 
@@ -14,6 +14,7 @@ class Open_Fow_OPGG_class:
         firefox_path = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
         webbrowser.register('firefox', None, webbrowser.BackgroundBrowser(firefox_path), 1)
 
-        # opgg,fow 멀티서치 열기
-        webbrowser.get('firefox').open(opgg_url)
-        webbrowser.get('firefox').open(fow_url)
+        if flag == 1:
+            webbrowser.get('firefox').open(opgg_url)
+        elif flag == 2:
+            webbrowser.get('firefox').open(fow_url)

@@ -20,9 +20,9 @@ class Team_members_stats_checker_class:
                     print(', ', end='')
             print(' }')
 
-    def last10_days_stats(summoners_name, driver):
+    def last10_days_stats(team_players_dict, driver, timing):
         se = dict() # 소환사들의 솔로랭크 최근 10게임의 평가정보들이 담길 딕셔너리
-        for name in summoners_name:
+        for name in team_players_dict.keys():
             # 임시 변수 초기화
             attribute = ''
             score = dict()
@@ -64,15 +64,16 @@ class Team_members_stats_checker_class:
                     continue
                 except IndexError:
                     continue
-            se[name] = score
-        # 정보 출력
-        print("==솔로랭크 최근 10게임 평가정보==")
-        Team_members_stats_checker_class.Stats_Print(se, ['전투', '생존', '성장', '시야', '오브젝트', '최근 경기일'])
-        print('')
+            # score를 se 딕셔너리에 옮겨 담는다.
+            if timing == 'after':
+                se[team_players_dict.get(name)] = score
+            elif timing == 'before':
+                se[name] = score
+        return se
 
-    def total_stats(summoners_name, driver):
+    def total_stats(team_players_dict, driver, timing):
         se = dict() # 소환사들의 솔로랭크 모든 게임의 평가정보들이 담길 딕셔너리
-        for name in summoners_name:
+        for name in team_players_dict.keys():
             # 임시 변수 초기화
             attribute = ''
             score = dict()
@@ -99,9 +100,10 @@ class Team_members_stats_checker_class:
                 except IndexError:
                     continue
             # score를 se 딕셔너리에 옮겨 담는다.
-            se[name] = score
-        print("==솔로랭크 모든 게임의 평가정보==")
-        # 정보 출력
-        Team_members_stats_checker_class.Stats_Print(se,['전투', '생존', '성장', '시야', '오브젝트'])
-        print('')
+            if timing == 'after':
+                se[team_players_dict.get(name)] = score
+            elif timing == 'before':
+                se[name] = score
+        return se
+
 

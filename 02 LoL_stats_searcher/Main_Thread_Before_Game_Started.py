@@ -3,7 +3,7 @@ from Summoner_Name_Getter import name_getter
 from Stats_Refresher import Stats_Refresher_class
 from Team_Members_Stats_Checker import Team_members_stats_checker_class
 from Open_Fow_OPGG import Open_Fow_OPGG_class
-import threading
+from threading import Thread
 
 def Main():
     # 소환사 이름 가져오는 부분
@@ -17,7 +17,7 @@ def Main():
     print(summoners_name, end='\n\n')
 
     # OPGG, FOW 멀티서치
-    Open_Fow_OPGG_class.Open_Fow_OPGG_method(summoners_name)
+    Open_Fow_OPGG_class.Open_Fow_OPGG_method(summoners_name, 1)
 
     # Get_driver_method -> 1 : headless 옵션으로 webdriver 호출, 0 : 일반 webdriver 호출
     # FOW,OPGG,YOURGG 동시에 전적 업데이트
@@ -27,11 +27,11 @@ def Main():
     driver_last_10_game = driver_fow
     driver_total_game = driver_yourgg
 
-    th_yourgg = threading.Thread(target=Stats_Refresher_class.YOURGG_Stats_Refresher, name='[YOURGG THREAD]',
+    th_yourgg = Thread(target=Stats_Refresher_class.YOURGG_Stats_Refresher, name='[YOURGG THREAD]',
                                  args=(summoners_name, driver_yourgg))
-    th_opgg = threading.Thread(target=Stats_Refresher_class.OPGG_Stats_Refresher, name='[OPGG THREAD]',
+    th_opgg = Thread(target=Stats_Refresher_class.OPGG_Stats_Refresher, name='[OPGG THREAD]',
                                args=(summoners_name, driver_opgg))
-    th_fow = threading.Thread(target=Stats_Refresher_class.Fow_Stats_Refresher, name='[FOW THREAD]',
+    th_fow = Thread(target=Stats_Refresher_class.Fow_Stats_Refresher, name='[FOW THREAD]',
                               args=(summoners_name, driver_fow))
 
     # 쓰레드 실행
@@ -44,28 +44,21 @@ def Main():
     th_opgg.join()
     th_fow.join()
 
-    # 쓰레드 종료
-    Get_driver_class.Close_driver(driver_opgg)
-
-    print('')
+    # 소환사들 이름 딕셔너리에 추가
+    summoners_name_dict = dict.fromkeys(summoners_name)
 
     # YOURGG에서 최근 10게임 스탯과 모든 게임 스탯을 가져옴
+    summoners_last10_days_stats = Team_members_stats_checker_class.last10_days_stats(summoners_name_dict, driver_last_10_game, 'before')
+    summoners_total_stats = Team_members_stats_checker_class.total_stats(summoners_name_dict, driver_total_game, 'before')
 
-    th_last = threading.Thread(target=Team_members_stats_checker_class.last10_days_stats,name='[LAST 10 GAME]'
-                               ,args=(summoners_name, driver_last_10_game))
-    th_total = threading.Thread(target=Team_members_stats_checker_class.total_stats,name='[TOTAL GAME]'
-                                ,args=(summoners_name, driver_total_game))
-
-    # 쓰레드 실행
-    th_last.start()
-    th_total.start()
-
-    # 쓰레드 종료 대기
-    th_last.join()
-    th_total.join()
+    print("\n==솔로랭크 최근 10게임 평가정보==")
+    Team_members_stats_checker_class.Stats_Print(summoners_last10_days_stats, ['전투', '생존', '성장', '시야', '오브젝트', '최근 경기일'])
+    print("\n==솔로랭크 모든 게임의 평가정보==")
+    Team_members_stats_checker_class.Stats_Print(summoners_total_stats, ['전투', '생존', '성장', '시야', '오브젝트'])
 
     # 쓰레드 종료
     Get_driver_class.Close_driver(driver_fow)
+    Get_driver_class.Close_driver(driver_opgg)
     Get_driver_class.Close_driver(driver_yourgg)
 
 if __name__ == "__main__":
